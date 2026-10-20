@@ -1,0 +1,31 @@
+# 本 skill 的环境在仓库之外：名为 skill-qq-chat-export 的 Python 3.11 环境。
+__pycache__/
+*.py[cod]
+.venv*/
+venv*/
+envs/
+.conda/
+
+# 密钥候选集、解密后的数据库与导出文本：含凭据与第三人隐私，绝不入库
+cand_p0.bin
+cand_p1.bin
+cand_all.bin
+cand_*.bin
+*.db
+*.db-wal
+*.db-shm
+*_plain.db
+*_聊天记录.txt
+*_导出.txt
+
+# 工作目录与内存快照
+qq_work/
+*_workdir/
+*memdump*
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~

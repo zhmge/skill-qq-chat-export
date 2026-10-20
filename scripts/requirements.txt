@@ -1,0 +1,4 @@
+# SQLCipher 的 Python 绑定。
+# Windows 上的预编译 wheel 只有 cp311，所以本 skill 的环境必须是 Python 3.11。
+# 官方 sqlcipher3-binary 在 PyPI 上没有 win_amd64 轮子，用 rotki 的维护版。
+rotki-pysqlcipher3==2024.10.1
